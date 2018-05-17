@@ -61,8 +61,8 @@ class TaskViewController: UIViewController {
         // 3. notify Child ViewController of Container View
         viewController.removeFromParentViewController()
     }
-    
-    func updateView() {
+    // MARK: Update View
+    private func updateView() {
         switch segmentedControl.selectedSegmentIndex{
         case 0:
             removeViewController(asChild: statisticsVC)
@@ -74,17 +74,22 @@ class TaskViewController: UIViewController {
             break
         }
     }
+    // MARK: Set Up
+    private func setUpView() { self.updateView() }
     
     // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
+        self.setUpView()
     }
     
+    // MARK: viewWillAppear
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        
+    }
+    //MARK: viewWillDisappear
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated)
     }
