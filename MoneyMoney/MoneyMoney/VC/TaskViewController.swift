@@ -40,6 +40,15 @@ class TaskViewController: UIViewController {
         // 4. notify Child ViewController of Container View
         viewController.didMove(toParentViewController: self)
     }
+    // MARK: removeViewController
+    private func removeViewController(asChild viewController: UIViewController) {
+        // 1.notified of child ViewController
+        viewController.willMove(toParentViewController: nil)
+        // 2. remove child ViewController& Constraints from Root View
+        viewController.view.removeFromSuperview()
+        // 3. notify Child ViewController of Container View
+        viewController.removeFromParentViewController()
+    }
     
     
     // MARK: Life Cycle
