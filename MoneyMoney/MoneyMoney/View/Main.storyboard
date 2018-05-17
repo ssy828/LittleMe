@@ -67,7 +67,7 @@
                                 </connections>
                             </segmentedControl>
                             <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Pmc-pF-M0j">
-                                <rect key="frame" x="0.0" y="98" width="414" height="589"/>
+                                <rect key="frame" x="0.0" y="88.333333333333314" width="414" height="598.66666666666674"/>
                             </containerView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -75,7 +75,7 @@
                             <constraint firstItem="Pmc-pF-M0j" firstAttribute="leading" secondItem="z5p-32-2Di" secondAttribute="leading" id="0ui-30-2Oa"/>
                             <constraint firstItem="z5p-32-2Di" firstAttribute="trailing" secondItem="Pmc-pF-M0j" secondAttribute="trailing" id="71e-fd-ybl"/>
                             <constraint firstItem="Ncl-sZ-8GK" firstAttribute="centerX" secondItem="oSs-mW-i20" secondAttribute="centerX" id="NKD-6g-dR0"/>
-                            <constraint firstItem="Pmc-pF-M0j" firstAttribute="top" secondItem="Ncl-sZ-8GK" secondAttribute="bottom" multiplier="1:0.9" id="Tk0-s6-BkR"/>
+                            <constraint firstItem="Pmc-pF-M0j" firstAttribute="top" secondItem="Ncl-sZ-8GK" secondAttribute="bottom" id="Tk0-s6-BkR"/>
                             <constraint firstItem="z5p-32-2Di" firstAttribute="bottom" secondItem="Pmc-pF-M0j" secondAttribute="bottom" id="fF0-cm-YJT"/>
                             <constraint firstItem="Ncl-sZ-8GK" firstAttribute="width" secondItem="oSs-mW-i20" secondAttribute="width" multiplier="0.9:1" id="kLL-6m-Pb2"/>
                             <constraint firstItem="Ncl-sZ-8GK" firstAttribute="centerY" secondItem="oSs-mW-i20" secondAttribute="centerY" multiplier="1:5" id="qMi-27-3fv"/>
