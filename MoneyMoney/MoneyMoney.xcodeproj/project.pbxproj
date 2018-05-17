@@ -16,6 +16,7 @@
 		CE84BE4E20A9996200AC68F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE84BE4C20A9996200AC68F7 /* LaunchScreen.storyboard */; };
 		CEE0085D20AD0A83006ABCED /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0085C20AD0A83006ABCED /* TodayViewController.swift */; };
 		CEE0085F20AD0AC6006ABCED /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0085E20AD0AC6006ABCED /* StatisticsViewController.swift */; };
+		CEF867F720AD4B86005C5B74 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEF867F620AD4B86005C5B74 /* CustomLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		CE84BE4F20A9996200AC68F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEE0085C20AD0A83006ABCED /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
 		CEE0085E20AD0AC6006ABCED /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatisticsViewController.swift; path = MoneyMoney/VC/StatisticsViewController.swift; sourceTree = SOURCE_ROOT; };
+		CEF867F620AD4B86005C5B74 /* CustomLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +84,7 @@
 		CE84BE4220A9996100AC68F7 /* MoneyMoney */ = {
 			isa = PBXGroup;
 			children = (
+				CEF867F520AD4B5F005C5B74 /* Layout */,
 				CE84BE5520A999DB00AC68F7 /* SupportingFiles */,
 				CE61F8E220AA79EF004AE997 /* VC */,
 				CE73C77520A99FF500903F46 /* View */,
@@ -98,6 +101,14 @@
 				CE84BE4F20A9996200AC68F7 /* Info.plist */,
 			);
 			path = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		CEF867F520AD4B5F005C5B74 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				CEF867F620AD4B86005C5B74 /* CustomLabel.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +188,7 @@
 				CE84BE4420A9996100AC68F7 /* AppDelegate.swift in Sources */,
 				CEE0085D20AD0A83006ABCED /* TodayViewController.swift in Sources */,
 				CEE0085F20AD0AC6006ABCED /* StatisticsViewController.swift in Sources */,
+				CEF867F720AD4B86005C5B74 /* CustomLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -10,6 +10,8 @@ import UIKit
 
 class TodayViewController: UIViewController {
 
+    @IBOutlet weak var dailyMoneyLabel: CustomLabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 

@@ -19,9 +19,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lj-S2-CVH">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3lj-S2-CVH" customClass="CustomLabel" customModule="MoneyMoney" customModuleProvider="target">
                                 <rect key="frame" x="41.333333333333343" y="28.000000000000004" width="331.33333333333326" height="49.333333333333343"/>
-                                <color key="backgroundColor" red="1" green="0.99676531550000003" blue="0.95913058520000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99865251779999997" green="0.7113095773" blue="0.67999213049999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -53,6 +53,9 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="yyr-gf-gq8"/>
                     </view>
+                    <connections>
+                        <outlet property="dailyMoneyLabel" destination="3lj-S2-CVH" id="Ykf-PT-hlM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dyi-aL-Jsd" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
