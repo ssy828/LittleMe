@@ -10,34 +10,50 @@ import UIKit
 
 class TaskViewController: UIViewController {
     
-    @IBOutlet weak var segmentedControl: UISegmentedControl!
-    @IBOutlet weak var todayContainerView: UIView!
-    @IBOutlet weak var StatisticsContainerView: UIView!
+    // MARK: - properties
     
+    // MARK: - IBOutlet
+    @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var containerView: UIView!
+    
+    // MARK: - IBAction
     @IBAction func didChangedIndex(_ sender: UISegmentedControl) {
-        switch segmentedControl.selectedSegmentIndex {
-        case 0:
-            self.todayContainerView.isHidden = false
-            self.StatisticsContainerView.isHidden = true
-        case 1:
-            self.todayContainerView.isHidden = true
-            self.StatisticsContainerView.isHidden = false
-        default:
-            break
-        }
+        //        switch segmentedControl.selectedSegmentIndex {
+        //        case 0:
+        //
+        //        case 1:
+        //
+        //        default:
+        //            break
+        //        }
+    }
+    
+    // MARK: - Methods
+    // addViewController
+    private func addViewCotnroller(asChild viewController: UIViewController) {
+        // 1. add Child ViewController
+        addChildViewController(viewController)
+        // 2. add Child View
+        self.containerView.addSubview(viewController.view)
+        // 3. Constraints
+        viewController.view.frame = self.containerView.bounds
+        // 4. notify Child ViewController of Container View
+        viewController.didMove(toParentViewController: self)
     }
     
     
+    // MARK: Life Cycle
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
-
+    
+    
+    
 }
 
