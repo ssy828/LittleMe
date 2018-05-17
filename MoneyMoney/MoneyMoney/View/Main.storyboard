@@ -50,7 +50,7 @@
         <!--Task-->
         <scene sceneID="upd-Dh-eNc">
             <objects>
-                <viewController id="Ga2-V8-GXk" customClass="TaskViewController" customModule="MoneyMoney" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="TaskViewController" id="Ga2-V8-GXk" customClass="TaskViewController" customModule="MoneyMoney" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="oSs-mW-i20">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -85,6 +85,7 @@
                     </view>
                     <tabBarItem key="tabBarItem" title="Task" id="5LK-sL-GSZ"/>
                     <connections>
+                        <outlet property="containerView" destination="Pmc-pF-M0j" id="hCh-kF-z4C"/>
                         <outlet property="segmentedControl" destination="Ncl-sZ-8GK" id="zrL-9N-sQL"/>
                     </connections>
                 </viewController>
@@ -95,18 +96,18 @@
         <!--Today-->
         <scene sceneID="IvS-kG-RUc">
             <objects>
-                <viewControllerPlaceholder storyboardName="Today" id="1up-hF-C2e" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="TodayViewController" storyboardName="Today" id="1up-hF-C2e" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iXu-gv-TVL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1798" y="672"/>
+            <point key="canvasLocation" x="1741" y="939"/>
         </scene>
         <!--Statistics-->
         <scene sceneID="OmX-xS-66t">
             <objects>
-                <viewControllerPlaceholder storyboardName="Statistics" id="xzY-sb-TQK" sceneMemberID="viewController"/>
+                <viewControllerPlaceholder storyboardIdentifier="StatisticsViewController" storyboardName="Statistics" id="xzY-sb-TQK" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1TN-YI-ZZB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1835" y="983"/>
+            <point key="canvasLocation" x="1757" y="1149"/>
         </scene>
     </scenes>
 </document>

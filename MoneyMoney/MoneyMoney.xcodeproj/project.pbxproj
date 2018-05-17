@@ -14,6 +14,8 @@
 		CE84BE4620A9996100AC68F7 /* TaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE84BE4520A9996100AC68F7 /* TaskViewController.swift */; };
 		CE84BE4B20A9996200AC68F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE84BE4A20A9996200AC68F7 /* Assets.xcassets */; };
 		CE84BE4E20A9996200AC68F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE84BE4C20A9996200AC68F7 /* LaunchScreen.storyboard */; };
+		CEE0085D20AD0A83006ABCED /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0085C20AD0A83006ABCED /* TodayViewController.swift */; };
+		CEE0085F20AD0AC6006ABCED /* StatisticsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE0085E20AD0AC6006ABCED /* StatisticsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		CE84BE4A20A9996200AC68F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE84BE4D20A9996200AC68F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE84BE4F20A9996200AC68F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEE0085C20AD0A83006ABCED /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		CEE0085E20AD0AC6006ABCED /* StatisticsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = StatisticsViewController.swift; path = MoneyMoney/VC/StatisticsViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXGroup;
 			children = (
 				CE84BE4520A9996100AC68F7 /* TaskViewController.swift */,
+				CEE0085E20AD0AC6006ABCED /* StatisticsViewController.swift */,
+				CEE0085C20AD0A83006ABCED /* TodayViewController.swift */,
 			);
 			path = VC;
 			sourceTree = "<group>";
@@ -169,6 +175,8 @@
 			files = (
 				CE84BE4620A9996100AC68F7 /* TaskViewController.swift in Sources */,
 				CE84BE4420A9996100AC68F7 /* AppDelegate.swift in Sources */,
+				CEE0085D20AD0A83006ABCED /* TodayViewController.swift in Sources */,
+				CEE0085F20AD0AC6006ABCED /* StatisticsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

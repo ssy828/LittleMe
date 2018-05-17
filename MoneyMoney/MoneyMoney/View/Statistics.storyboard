@@ -6,7 +6,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -14,23 +13,11 @@
         <!--Statistics View Controller-->
         <scene sceneID="1Lw-FK-BFb">
             <objects>
-                <viewController id="tDO-xw-bea" customClass="StatisticsViewController" customModule="MoneyMoney" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="StatisticsViewController" id="tDO-xw-bea" customClass="StatisticsViewController" customModule="MoneyMoney" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="5Nd-qm-E4D">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="uAA-uU-CPL">
-                                <rect key="frame" x="0.0" y="100" width="375" height="567"/>
-                                <color key="backgroundColor" red="1" green="0.99676531550000003" blue="0.95913058520000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <constraints>
-                            <constraint firstItem="Iwf-xy-wpC" firstAttribute="bottom" secondItem="uAA-uU-CPL" secondAttribute="bottom" id="Kbd-WC-K1u"/>
-                            <constraint firstItem="uAA-uU-CPL" firstAttribute="trailing" secondItem="Iwf-xy-wpC" secondAttribute="trailing" id="WIR-om-9bu"/>
-                            <constraint firstItem="uAA-uU-CPL" firstAttribute="top" secondItem="Iwf-xy-wpC" secondAttribute="top" multiplier="1:0.2" id="WKC-BU-OAa"/>
-                            <constraint firstItem="uAA-uU-CPL" firstAttribute="leading" secondItem="Iwf-xy-wpC" secondAttribute="leading" id="bI4-Ga-f8T"/>
-                        </constraints>
                         <viewLayoutGuide key="safeArea" id="Iwf-xy-wpC"/>
                     </view>
                 </viewController>
